@@ -1,0 +1,56 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "卒中量表",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/lung/lung",
+			"style": {
+				"navigationBarTitleText": "肺癌筛查"
+			}
+		},
+		{
+			"path": "pages/digestiveDiseases/digestiveDiseases",
+			"style": {
+				"navigationBarTitleText": "消化疾病筛查"
+			}
+		},
+		{
+			"path": "pages/result/result",
+			"style": {
+				"navigationBarTitleText": "评估结果"
+			}
+		},
+		{
+			"path": "pages/xhResut/xhResut",
+			"style": {
+				"navigationBarTitleText": "评估结果"
+			}
+		},
+		{
+			"path": "pages/lungResult/lungResult",
+			"style": {
+				"navigationBarTitleText": "评估结果"
+			}
+		},
+		{
+			"path": "pages/privacyPolicy/privacyPolicy",
+			"style": {
+				"navigationBarTitleText": "隐私保护指引"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#F8F8F8"
+	}
+}

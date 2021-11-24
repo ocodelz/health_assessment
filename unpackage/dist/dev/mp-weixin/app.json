@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/lung/lung",
+    "pages/digestiveDiseases/digestiveDiseases",
+    "pages/result/result",
+    "pages/xhResut/xhResut",
+    "pages/lungResult/lungResult",
+    "pages/privacyPolicy/privacyPolicy"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {}
+}
